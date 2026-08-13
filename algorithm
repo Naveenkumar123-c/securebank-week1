@@ -1,0 +1,57 @@
+# Algorithm
+
+## SecureBank - Console Banking Application
+
+### Step 1: Start
+Start the SecureBank application.
+
+### Step 2: Initialize Data Structure
+Create a `HashMap<Integer, Account>` to store bank accounts.
+
+### Step 3: Display Menu
+Display the following menu:
+
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Close Account
+6. Exit
+
+### Step 4: Create Account
+- Get the customer name.
+- Generate an account ID.
+- Create an Account object.
+- Store the account in the HashMap.
+
+### Step 5: Deposit Money
+- Get the account ID.
+- Check whether the account exists.
+- Get the deposit amount.
+- Add the amount to the account balance.
+- Display the updated balance.
+
+### Step 6: Withdraw Money
+- Get the account ID.
+- Check whether the account exists.
+- Get the withdrawal amount.
+- Check whether sufficient funds are available.
+- If sufficient, subtract the amount from the balance.
+- Otherwise, display an insufficient funds message.
+
+### Step 7: Check Balance
+- Get the account ID.
+- Check whether the account exists.
+- Display the customer name and current balance.
+
+### Step 8: Close Account
+- Get the account ID.
+- Check whether the account exists.
+- Remove the account from the HashMap.
+- Display account closure confirmation.
+
+### Step 9: Exit
+If the user selects Exit, terminate the application.
+
+### Step 10: End
+End the SecureBank application.
